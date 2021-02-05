@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Imported data-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Page Title-->
+    <title>Mi primer formulario</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="./Styles/Style.css">
+    <!--Page Icon-->
+    <link rel="icon" type="image/png" href="./Styles/imagen/nav-logo.png">
+</head>
+<!--Page content-->
+<body>
+    <!--Navigation Bar-->
+    <div class="container">
+        <nav>
+            <!--Bar Options-->
+            <ul class="nav-link">
+                <!--Contact us-->
+                <li>
+                    <a href="#contact-us">Contáctanos</a>
+                </li>
+                <!--Portfolio-->
+                <li>
+                    <a href="#portfolio">Portafolio</a>
+                </li>        
+            </ul>
+            <!--Bar Options Ends-->
+
+            <!--Logo-->
+            <div class="nav-logo-container">
+                <a href="#menu">
+                    <img class="nav-logo" src="./Styles/imagen/nav-logo.png" alt="Greddy Logo">
+                </a>
+            </div>            
+        </nav>
+    </div>
+    <!--Navigation Bar Ends-->
+
+    <!--Main Section-->
+    <section class="main-section" id="main-section">
+        <div class="contact-us">
+            <header class="header-section">
+                <h1>Contáctanos</h1>
+            </header>
+
+            <div class="main-content">
+                
+                <div class="flex-container-1">  
+                    <div class="first-name-box">
+                        <h2>Nombres</h2>
+                        <input type="text" class="inputstyle" id="first-name" name="Nombres">
+                    </div>
+                    <div class="last-name-box">
+                        <h2>Apellidos</h2>
+                    <input type="text" class="inputstyle" id="last-name" name="Apellidos">
+                    </div>
+                </div>
+                    
+                <div class="flex-container-2">  
+                    <div class="phone">
+                        <h2>Teléfono</h2>
+                        <input type="tel" class="phone" id="phone" name="Teléfono">
+                    </div>
+                    <div class="address">
+                        <h2>Dirección</h2>
+                    <input type="text" class="address" id="address" name="Dirección">
+                    </div>
+                    <div class="e-mail">
+                        <h2>E-mail</h2>
+                    <input type="email" class="e-mail" id="e-mail" name="E-mail">
+                    </div>
+                </div>
+
+                <div class="flex-container-3">  
+                    <div class="request">
+                        <h2>Solicitud</h2>
+                        <input type="text" class="request" id="request" name="Solicitud">
+                    </div>
+                   
+                </div>
+
+                <div class="buttons-container">
+                    <a href="#contact-us" class="cancel-button">Cancelar</a>
+                    <a href="#menu" class="accept-button">Aceptar</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
